@@ -9,7 +9,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: root
       MONGO_INITDB_DATABASE: users_db
     ports:
-      - '27017:27017'
+      - '27027:27017'
   redis:
     image: 'redis:latest'
     ports:
