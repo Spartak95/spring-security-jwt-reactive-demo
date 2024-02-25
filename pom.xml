@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.xcoder</groupId>
-	<artifactId>spring-security-jwt-demo</artifactId>
+	<artifactId>spring-security-jwt-reactive-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-security-jwt-demo</name>
+	<name>spring-security-jwt-reactive-demo</name>
 
 	<properties>
 		<java.version>21</java.version>
