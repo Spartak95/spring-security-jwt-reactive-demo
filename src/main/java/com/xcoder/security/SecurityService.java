@@ -43,7 +43,7 @@ public class SecurityService {
 
     public Mono<TokenData> processRefreshToken(String refreshTokenValue) {
         return refreshTokenService.getByValue(refreshTokenValue)
-            .flatMap(refreshToken -> userService.findById(refreshToken.getId()))
+            .flatMap(refreshToken -> userService.findById(refreshToken.getUserId()))
             .flatMap(this::createTokenData);
     }
 
